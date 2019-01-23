@@ -8,22 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		81B0339021F7700300CF5FEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0338F21F7700300CF5FEE /* AppDelegate.swift */; };
-		81B0339221F7700300CF5FEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0339121F7700300CF5FEE /* ViewController.swift */; };
 		81B0339521F7700300CF5FEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B0339321F7700300CF5FEE /* Main.storyboard */; };
 		81B0339821F7700300CF5FEE /* Pigeon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81B0339621F7700300CF5FEE /* Pigeon.xcdatamodeld */; };
 		81B0339A21F7700600CF5FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B0339921F7700600CF5FEE /* Assets.xcassets */; };
 		81B0339D21F7700600CF5FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B0339B21F7700600CF5FEE /* LaunchScreen.storyboard */; };
+		81B033A721F7705B00CF5FEE /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B033A621F7705B00CF5FEE /* UserCell.swift */; };
+		81B033A921F7706600CF5FEE /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B033A821F7706600CF5FEE /* ChatMessageCell.swift */; };
+		81B033AB21F7707300CF5FEE /* ChatInputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B033AA21F7707300CF5FEE /* ChatInputContainerView.swift */; };
+		81B033AE21F7721900CF5FEE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B033AD21F7721900CF5FEE /* Extensions.swift */; };
+		81B033B021F7727400CF5FEE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81B033AF21F7727400CF5FEE /* GoogleService-Info.plist */; };
+		81B033B521F7754000CF5FEE /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B033B421F7754000CF5FEE /* MessagesController.swift */; };
+		81B033B721F7758F00CF5FEE /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B033B621F7758F00CF5FEE /* NewMessageController.swift */; };
+		81B033BB21F7761100CF5FEE /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B033BA21F7761100CF5FEE /* ChatLogController.swift */; };
+		81B033BE21F7764E00CF5FEE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B033BD21F7764E00CF5FEE /* User.swift */; };
+		81B033C021F7768300CF5FEE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B033BF21F7768300CF5FEE /* Message.swift */; };
+		81B033C621F79D2D00CF5FEE /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B033C521F79D2D00CF5FEE /* SignInVC.swift */; };
+		81B033C921F79EE900CF5FEE /* Poppins-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81B033C821F79EE900CF5FEE /* Poppins-Bold.otf */; };
+		81B033CB21F79F3100CF5FEE /* Muli-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81B033CA21F79F3100CF5FEE /* Muli-Light.ttf */; };
+		81B033CD21F79F6F00CF5FEE /* Muli-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81B033CC21F79F6F00CF5FEE /* Muli-SemiBold.ttf */; };
+		81B033CF21F7E46D00CF5FEE /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B033CE21F7E46D00CF5FEE /* SignUpVC.swift */; };
+		8DC00D8CBD183404F5F49DDD /* Pods_Pigeon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005B47A579EF4F1B36E54E4C /* Pods_Pigeon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		005B47A579EF4F1B36E54E4C /* Pods_Pigeon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pigeon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DA7BBD5C6E17705C77596FE /* Pods-Pigeon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pigeon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pigeon/Pods-Pigeon.debug.xcconfig"; sourceTree = "<group>"; };
 		81B0338C21F7700300CF5FEE /* Pigeon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pigeon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B0338F21F7700300CF5FEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81B0339121F7700300CF5FEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		81B0339421F7700300CF5FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81B0339721F7700300CF5FEE /* Pigeon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pigeon.xcdatamodel; sourceTree = "<group>"; };
 		81B0339921F7700600CF5FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81B0339C21F7700600CF5FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81B0339E21F7700600CF5FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B033A621F7705B00CF5FEE /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		81B033A821F7706600CF5FEE /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		81B033AA21F7707300CF5FEE /* ChatInputContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputContainerView.swift; sourceTree = "<group>"; };
+		81B033AD21F7721900CF5FEE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		81B033AF21F7727400CF5FEE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		81B033B421F7754000CF5FEE /* MessagesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
+		81B033B621F7758F00CF5FEE /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		81B033BA21F7761100CF5FEE /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		81B033BD21F7764E00CF5FEE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		81B033BF21F7768300CF5FEE /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		81B033C521F79D2D00CF5FEE /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		81B033C821F79EE900CF5FEE /* Poppins-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.otf"; sourceTree = "<group>"; };
+		81B033CA21F79F3100CF5FEE /* Muli-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Light.ttf"; sourceTree = "<group>"; };
+		81B033CC21F79F6F00CF5FEE /* Muli-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-SemiBold.ttf"; sourceTree = "<group>"; };
+		81B033CE21F7E46D00CF5FEE /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		832D32C51E2E9B6DF86DBA46 /* Pods-Pigeon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pigeon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pigeon/Pods-Pigeon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DC00D8CBD183404F5F49DDD /* Pods_Pigeon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1991A048DCFEE8C6D51339DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				005B47A579EF4F1B36E54E4C /* Pods_Pigeon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		81B0338321F7700300CF5FEE = {
 			isa = PBXGroup;
 			children = (
 				81B0338E21F7700300CF5FEE /* Pigeon */,
 				81B0338D21F7700300CF5FEE /* Products */,
+				BBAADE0FAACBCB0BA546FE61 /* Pods */,
+				1991A048DCFEE8C6D51339DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +99,78 @@
 		81B0338E21F7700300CF5FEE /* Pigeon */ = {
 			isa = PBXGroup;
 			children = (
+				81B033C721F79EAA00CF5FEE /* Fonts */,
+				81B033BC21F7764000CF5FEE /* Model */,
+				81B033B121F7750600CF5FEE /* Controller */,
+				81B033AC21F771FE00CF5FEE /* Helpers */,
+				81B033A521F7704000CF5FEE /* View */,
 				81B0338F21F7700300CF5FEE /* AppDelegate.swift */,
-				81B0339121F7700300CF5FEE /* ViewController.swift */,
 				81B0339321F7700300CF5FEE /* Main.storyboard */,
 				81B0339921F7700600CF5FEE /* Assets.xcassets */,
 				81B0339B21F7700600CF5FEE /* LaunchScreen.storyboard */,
+				81B033AF21F7727400CF5FEE /* GoogleService-Info.plist */,
 				81B0339E21F7700600CF5FEE /* Info.plist */,
 				81B0339621F7700300CF5FEE /* Pigeon.xcdatamodeld */,
 			);
 			path = Pigeon;
+			sourceTree = "<group>";
+		};
+		81B033A521F7704000CF5FEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81B033AA21F7707300CF5FEE /* ChatInputContainerView.swift */,
+				81B033A821F7706600CF5FEE /* ChatMessageCell.swift */,
+				81B033A621F7705B00CF5FEE /* UserCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81B033AC21F771FE00CF5FEE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				81B033AD21F7721900CF5FEE /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		81B033B121F7750600CF5FEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81B033B421F7754000CF5FEE /* MessagesController.swift */,
+				81B033B621F7758F00CF5FEE /* NewMessageController.swift */,
+				81B033BA21F7761100CF5FEE /* ChatLogController.swift */,
+				81B033C521F79D2D00CF5FEE /* SignInVC.swift */,
+				81B033CE21F7E46D00CF5FEE /* SignUpVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81B033BC21F7764000CF5FEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81B033BD21F7764E00CF5FEE /* User.swift */,
+				81B033BF21F7768300CF5FEE /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81B033C721F79EAA00CF5FEE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				81B033CC21F79F6F00CF5FEE /* Muli-SemiBold.ttf */,
+				81B033CA21F79F3100CF5FEE /* Muli-Light.ttf */,
+				81B033C821F79EE900CF5FEE /* Poppins-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BBAADE0FAACBCB0BA546FE61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DA7BBD5C6E17705C77596FE /* Pods-Pigeon.debug.xcconfig */,
+				832D32C51E2E9B6DF86DBA46 /* Pods-Pigeon.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81B033A121F7700600CF5FEE /* Build configuration list for PBXNativeTarget "Pigeon" */;
 			buildPhases = (
+				602E8E566415DA8BAF7BBFF8 /* [CP] Check Pods Manifest.lock */,
 				81B0338821F7700300CF5FEE /* Sources */,
 				81B0338921F7700300CF5FEE /* Frameworks */,
 				81B0338A21F7700300CF5FEE /* Resources */,
+				2E7E6FF9B374B4E7EFAD2EDE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +234,88 @@
 			buildActionMask = 2147483647;
 			files = (
 				81B0339D21F7700600CF5FEE /* LaunchScreen.storyboard in Resources */,
+				81B033B021F7727400CF5FEE /* GoogleService-Info.plist in Resources */,
+				81B033C921F79EE900CF5FEE /* Poppins-Bold.otf in Resources */,
 				81B0339A21F7700600CF5FEE /* Assets.xcassets in Resources */,
+				81B033CD21F79F6F00CF5FEE /* Muli-SemiBold.ttf in Resources */,
+				81B033CB21F79F3100CF5FEE /* Muli-Light.ttf in Resources */,
 				81B0339521F7700300CF5FEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E7E6FF9B374B4E7EFAD2EDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pigeon/Pods-Pigeon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pigeon/Pods-Pigeon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		602E8E566415DA8BAF7BBFF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pigeon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		81B0338821F7700300CF5FEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B0339221F7700300CF5FEE /* ViewController.swift in Sources */,
+				81B033BE21F7764E00CF5FEE /* User.swift in Sources */,
+				81B033BB21F7761100CF5FEE /* ChatLogController.swift in Sources */,
+				81B033A721F7705B00CF5FEE /* UserCell.swift in Sources */,
+				81B033AB21F7707300CF5FEE /* ChatInputContainerView.swift in Sources */,
+				81B033C621F79D2D00CF5FEE /* SignInVC.swift in Sources */,
+				81B033A921F7706600CF5FEE /* ChatMessageCell.swift in Sources */,
 				81B0339821F7700300CF5FEE /* Pigeon.xcdatamodeld in Sources */,
+				81B033B721F7758F00CF5FEE /* NewMessageController.swift in Sources */,
 				81B0339021F7700300CF5FEE /* AppDelegate.swift in Sources */,
+				81B033AE21F7721900CF5FEE /* Extensions.swift in Sources */,
+				81B033B521F7754000CF5FEE /* MessagesController.swift in Sources */,
+				81B033CF21F7E46D00CF5FEE /* SignUpVC.swift in Sources */,
+				81B033C021F7768300CF5FEE /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +459,7 @@
 		};
 		81B033A221F7700600CF5FEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA7BBD5C6E17705C77596FE /* Pods-Pigeon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,7 +469,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "nasim-ahmed.Pigeon";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasimahmed.pigeon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,6 +478,7 @@
 		};
 		81B033A321F7700600CF5FEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832D32C51E2E9B6DF86DBA46 /* Pods-Pigeon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,7 +488,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "nasim-ahmed.Pigeon";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasimahmed.pigeon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  Pigeon
 //
-//  Created by Nasim Ahmed on 22.01.19.
-//  Copyright © 2019 Nasim Ahmed. All rights reserved.
+//  Created by Nasim Ahmed on 02.01.17.
+//  Copyright © 2017 Nasim Ahmed. All rights reserved.
 //
 
 import UIKit
+import Firebase
 import CoreData
 
 @UIApplicationMain
@@ -17,6 +18,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        FirebaseApp.configure()
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        
+        window?.rootViewController = UINavigationController(rootViewController: MessagesController())
+
+//          window?.rootViewController = SignInVC()
+        
+        
         return true
     }
 
